@@ -1,0 +1,4 @@
+in the present folfer i want my assignment to be done using a simple application build the application for below 4 questions 1 develop a simple rest api using python flask to manage student records.implement get,pots,put,delete operations.test the end points ANS SHOW RESPONSES
+2 create a  local git repository,add and commit your project,create a github repository and push the code create a  feature branch  and merge it into the main branch
+3 write a docker file for a simple python application.build the docker image,run a container,map a host port to the container,port and demonstarte the application in a browswer using curl
+4 write deployment yaml file for A SIMPLE python application with two replicas.apply it and verify the pods using kubectl 
