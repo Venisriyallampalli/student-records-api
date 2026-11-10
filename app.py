@@ -21,6 +21,11 @@ def home():
         }
     }), 200
 
+# Healthcheck endpoint
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "healthy", "service": "student-api"}), 200
+
 # 1. GET all students
 @app.route("/students", methods=["GET"])
 def get_students():
